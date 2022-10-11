@@ -138,7 +138,7 @@ INTERNAL_IPS = [
 
 CKEDITOR_UPLOAD_PATH = "uploads/"
 
-DEFAULT_AUTO_FIELD='django.db.models.AutoField'
+DEFAULT_AUTO_FIELD = 'django.db.models.AutoField'
 
 CKEDITOR_CONFIGS = {
     'default': {
