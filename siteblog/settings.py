@@ -38,8 +38,10 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'debug_toolbar',
+    'mptt',
     'ckeditor',
     'blog.apps.BlogConfig',
+    'testapp.apps.TestappConfig',
 ]
 
 MIDDLEWARE = [
@@ -210,3 +212,5 @@ CACHES = {
         'LOCATION': os.path.join(BASE_DIR, 'django_cache'),
     }
 }
+
+MPTT_ADMIN_LEVEL_INDENT = 20
